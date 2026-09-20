@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>My First Webpage</title>   
+<style>
+    body {background-color: lightgray;}
+</style> 
+<title>My First Webpage</title> 
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="Statham.png"> 
 </head>
-<body>
-<h1>Zhangir</h1>
-<h2>MT-2504</h2>
-<h3>About me</h3>
-<p>I am 18 years old.I like play a volleyball<hr></p>
+<body class="classname">
+<h1 class="highlight">Zhangir</h1>
+<h2 id="main-heading">MT-2504</h2>
+<h3 style="color: aquamarine;">About me</h3>
+<p id="idname">I am 18 years old.I like play a volleyball<hr></p>
 <ol>
     <li>do workout</li>
     <li>listen to music</li>
@@ -18,10 +23,14 @@
     <li>Youtube</li>
     <li>Whatsapp</li>
 </ul>
-
+<div class="left-box">
 <img src="otter.jpeg">
+</div>
 <br>
+<div class="right-box">
 <a href="https://www.youtube.com/">Youtube</a>
+</div>
+<div class="clear"></div>
 <br>
 <a href="https://lms.astanait.edu.kz/">AITU</a>
 <p><button>Click me</button><hr></p>
@@ -62,9 +71,8 @@
     </tr>
     <tr>
         <td>This is</td>
-        <td><p> My first webpage</p></td>
+        <td>My first webpage</td>
     </tr>
-
 </table>
 <p>😎😜😄<hr></p>
 <form>
@@ -82,5 +90,16 @@
     <br>
     <input type="submit" value="Submit">
 </form>
+<div class="header">
+    <h1>Zhangir</h1>
+</div>
+<div class="main-content">
+    <h2>About Me</h2>
+    <p>I like listen to music</p>
+</div>
+<div class="footer">
+    <h3>MT-2504</h3>
+</div>
+
 </body>
 </html>
